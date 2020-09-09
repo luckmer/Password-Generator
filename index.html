@@ -11,33 +11,35 @@
             <div class="password">
                 <label class="header"
                     ><h4>Numbers</h4>
-                    <h3>password</h3>
+                    <h3></h3>
                     <hr />
                 </label>
             </div>
             <div class="body">
                 <label class="marks"
                     >LowerCase(a-z)
-                    <input type="checkbox" />
+                    <input type="checkbox" class="lowerCase" />
                 </label>
                 <label class="marks"
                     >upperCase(A-Z)
-                    <input type="checkbox" />
+                    <input type="checkbox" class="upperCase" />
                 </label>
                 <label class="marks"
                     >Numbers
-                    <input type="checkbox" />
+                    <input type="checkbox" class="numberCase" />
                 </label>
                 <label class="marks"
                     >Symbols
-                    <input type="checkbox" />
+                    <input type="checkbox" class="symbolCase" />
                 </label>
                 <label class="marks"
                     >Length
-                    <input type="range" />
+                    <input type="range" min="0" max="20" class="rangeCase" />
                 </label>
                 <div class="SubmitButton">
-                    <button type="submit">Generate Password</button>
+                    <button type="submit" onclick="generate()">
+                        Generate Password
+                    </button>
                 </div>
             </div>
         </div>

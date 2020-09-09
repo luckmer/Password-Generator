@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    width: 100vw;
+}
+.SubmitButton {
+    margin: 3rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 100%;
+}
+button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 40px 10px 40px;
+    background-color: #161b1c;
+    color: white;
+}
+.container {
+    min-width: 50vw;
+    min-height: 30vh;
+}
+
+.header {
+    text-align: flex-end;
+    width: 100%;
+    overflow-x: scroll;
+}
+h4 {
+    opacity: 0.4;
+}
+h3 {
+    padding: 0 0 0 20px;
+}
+
+.password {
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+}
+
+input {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+input:last-child {
+    width: 5rem;
+}
+
+.marks {
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10vw 0 10vw;
+}
